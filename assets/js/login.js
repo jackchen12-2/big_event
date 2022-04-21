@@ -55,9 +55,10 @@
         e.preventDefault()
         let data = $(this).serialize()
        
-        console.log(data)
+       
         // 发起get请求
         $.post('/api/login',data,function(res) {
+            console.log(res);
             if(res.status !==0 ) return layer.msg(res.message)
              // 把token值存在本地存储中
              localStorage.setItem('token',res.token)
@@ -66,7 +67,8 @@
            
             setTimeout(function() {
                 location.href = './index.html'
-            },200)
+            },200)  
+           
         })
     })
 })();
