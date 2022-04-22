@@ -1,0 +1,18 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f2f3f5;
+    padding: 15px;
+}
+.layui-card-header {
+    height: 42px;
+    padding-left: 15px;
+    border-bottom: 1px solid rgb(246,246,246);
+    line-height: 42px;
+   
+}
+.layui-card-body {
+    width: 500px;
+}
