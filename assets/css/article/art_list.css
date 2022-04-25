@@ -1,0 +1,14 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(242,242,242);
+    padding: 15px;
+}
+#form_list {
+    display: flex;
+}
+.layui-form-item {
+    margin-right: 5px;
+}
